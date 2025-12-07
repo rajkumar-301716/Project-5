@@ -1,0 +1,22 @@
+1st Formula : ( For hour Hand )
+12hr = 360 degree
+1hr = 360 / 12 => 30 degree
+So it becomes ,
+ hour rotation = 30 * htime + mtime / 2
+
+2nd Formula : ( For minute Hand )
+( For rotating from one number to other Ex: 12 to 1 )
+60min = 30 degree
+1 min = 1 / 2 degree 
+m -> m / 2 degree rotation
+
+So for circling from 12 to 12 again , 
+60min -> 360 degree
+1min -> 6 degree
+So it becomes ,
+minute rotation = 6 * mtime
+
+3rd Formula : ( For second Hand )
+So for circling from 12 to 12 again ,
+60seconds -> 360 degree
+1seconds -> 6 * stime
